@@ -1,4 +1,0 @@
-Hello, trigger auto push build
-Try to push build
-Try to push another build
-try to push another build
