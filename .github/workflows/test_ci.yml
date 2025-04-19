@@ -15,4 +15,4 @@ jobs:
 
         steps:
             - name: Print hello world
-              uses: echo "Hello World"
+              run: echo "Hello World"
