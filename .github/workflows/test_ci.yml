@@ -14,5 +14,11 @@ jobs:
         runs-on : ubuntu-latest
 
         steps:
-            - name: Print hello world
-              run: echo "Hello World"
+            - name: Checkout The Repo
+              uses: actions/checkout@v3
+
+            - name: Print everything
+              run: ls
+
+            - name: Print hello file
+              run: cat hello.txt
